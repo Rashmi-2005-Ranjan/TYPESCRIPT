@@ -1,0 +1,17 @@
+"use strict";
+// let myFullName="Rashmi Ranjan";
+let myFirstName = "Rashmi";
+let myLastName = "Ranjan";
+let myFullName = myFirstName + myLastName;
+console.log(myFullName);
+let message = "Hello,TypeScript!";
+let messagelength = message.length;
+console.log("The Length Of The Message is : " + messagelength);
+let text = "Hello Everyone I am Just Start To Learn TypeScript";
+let uppercase = text.toUpperCase();
+console.log(uppercase);
+let lowercase = text.toLowerCase();
+console.log(lowercase);
+let longText = "Hello Everone Welcome To TypeScript Tutorial,Learn All The Lession And Master Type Script";
+let shortText = longText.slice(10);
+console.log(shortText);
