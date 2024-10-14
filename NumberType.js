@@ -1,0 +1,11 @@
+"use strict";
+let myFavNum = 5;
+let myAge = 19;
+let pi = 3.147;
+let myNegVal = -5;
+let invalidResult = myAge + myNegVal;
+console.log(invalidResult);
+let computedvalue = Math.sqrt(15);
+console.log(computedvalue);
+let nanvalue = NaN;
+console.log(nanvalue);
